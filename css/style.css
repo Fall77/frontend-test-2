@@ -105,7 +105,7 @@ button{
         flex-wrap: wrap;
         position: absolute;
         width: 100vw;
-        height: -webkit-fill-available;
+        height: fit-content;
     }
     .text-content{
         display:block;
@@ -169,7 +169,7 @@ button{
         display: flex;
         flex-wrap: wrap;
         position: absolute;
-        height: -webkit-fill-available;
+        height: fit-content;
     }
     .text-content{
         display:block;
@@ -225,6 +225,7 @@ button{
         display: flex;
         flex-wrap: wrap;
         position: absolute;
+        height: fit-content;
     }
     .text-content{
         display:block;
