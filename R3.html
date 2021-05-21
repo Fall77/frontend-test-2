@@ -4,10 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a web page made from scratch for a frontend-trainee test, showcasing a Ted Talk">
+    <meta name="author" content="Ariel Seco">
+    <meta name="image" property="og:image" content="./resources/previewImg.JPG">
     <link rel="stylesheet" href="css/style.css">
-    <title>Video Responsive</title>
+    <link rel="icon" href="resources/tedIcon.png">
+    <title>Ted Talk - Responsive Web Page</title>
 </head>
 <body>
+
+    <div class="main-container">
+
+        <div class="clickeable-container">
+            <img class="image" src="resources/tedTalkFrame.JPG" alt="tedTalkImg">
+            <button id="open" class="img-button">
+                Watch the Ted talk about it
+            </button>
+        </div>
+
+        <div class="text-content">
+            <h1>The secret to speaking a new language with confidence is all about attitude, not ability.</h1>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic impedit minus tenetur expedita, cumque et inventore nemo consequatur exercitationem, dignissimos iste facilis repellat ullam! Nisi debitis atque deserunt beatae neque.</p>
+            <br>
+        </div>
+
+    </div>
+
+    <div id="modal-container" class="displayNone">
+        <div class="modal">
+            <iframe width="969" height="545" src="https://www.youtube.com/embed/Ge7c7otG2mk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+
+        <button id="close">
+             x 
+        </button>
+    </div>
+
     
+    <script src="js/app.js"></script>
 </body>
 </html>
