@@ -64,7 +64,6 @@ button{
 
 .image {
     width: 100%;
-    opacity: 1;
     transition: .5s ease;
     margin: 10px;
   }
@@ -106,6 +105,7 @@ button{
         flex-wrap: wrap;
         position: absolute;
         width: 100vw;
+        height: -webkit-fill-available;
     }
     .text-content{
         display:block;
@@ -132,6 +132,13 @@ button{
         width: 100px;
         height: 50px;
       }
+      
+    .image {
+        width: 96%;
+        transition: .5s ease;
+        margin: 10px;
+      }
+
     #modal-container{
         visibility: hidden;
         position: absolute;
@@ -162,6 +169,7 @@ button{
         display: flex;
         flex-wrap: wrap;
         position: absolute;
+        height: -webkit-fill-available;
     }
     .text-content{
         display:block;
